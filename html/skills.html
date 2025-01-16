@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="/css/skills.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="busniness-name">
+        <div class="line"></div>
+        <div class="midey">MFD Tech</div>
+        <div class="line"></div>
+      </div>
+      <div class="rigth-nav" id="navLinks">
+        <a class="navy" href="/html/port.html">Home</a>
+        <a class="navy" href="/html/about.html">About</a>
+        <a class="navy" href="#">Skills/Tools</a>
+        <a class="navy" href="#contact">Contact</a>
+      </div>
+      <div class="icon" onclick="toggleMenu()">
+        <div class="lin"></div>
+        <div class="lin"></div>
+        <div class="lin"></div>
+      </div>
+    </nav>
+    <section class="section1">
+      <div class="div1">
+        <h1>Skills Summary</h1>
+        <article>
+          I am a results-oriented and detail-driven web developer with a passion
+          for creating dynamic, user-friendly, and innovative websites. With a
+          strong foundation in both front-end and back-end technologies, I bring
+          a comprehensive skill set to every project.
+        </article>
+      </div>
+      <div class="div">
+        <img src="./images/arrowdown.png" alt="" />
+        <h2>My expertise includes</h2>
+        <img src="./images/arrowdown.png" alt="" />
+      </div>
+      <div class="div2">
+        <h3>Front-End Development:</h3>
+        <ul>
+          <li>
+            Proficient in HTML5, CSS3, and JavaScript, with a focus on
+            responsive and mobile-first design.
+          </li>
+          <li>
+            Experience with modern front-end frameworks/libraries such as
+            React.js
+          </li>
+          <li>
+            Skilled in implementing cross-browser compatibility and
+            accessibility standards.
+          </li>
+          <li>
+            Familiarity with CSS pre-processors like SASS/SCSS for efficient
+            styling.
+          </li>
+        </ul>
+        <h3>Back-End Development:</h3>
+        <ul>
+          <li>
+            Solid understanding of server-side languages such as Node.js and
+            Python.
+          </li>
+          <li>Database design and management using MySQL, MongoDB</li>
+          <li>
+            RESTful API development and integration for seamless communication
+            between front-end and back-end.
+          </li>
+        </ul>
+        <h3>Development Tools:</h3>
+        <article>
+          Proficient in using development tools like VS Code, Git, and package
+          managers (npm).
+        </article>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact">
+        <h2>Let's connect</h2>
+        <p>
+          I'm passionate about creating beautiful and functional websites, and i
+          look forward to the opportunity to collaborate with you. Let's
+          schedule a call or meeting to discuss your project further. Feel free
+          to reach out using the form below, and i'll be in touch as soon as
+          possible
+        </p>
+      </div>
+      <div class="container">
+        <form
+          class="forms"
+          id="contact-form"
+          action="https://formspree.io/olajideayomide946@gmail.com"
+          method="POST"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div id="response"></div>
+      </div>
+    </section>
+    <section class="section4" id="#">
+      <a class="text" href="https://github.com/midey122">
+        <img class="git" src="./images/git-image.webp" alt="" />
+      </a>
+      <a class="text" href="https://twitter.com/Midey BB">
+        <img src="./images/Twitter.png" alt="" class="img" />
+      </a>
+      <a class="text" href="https://twitter.com/Midey BB">
+        <img src="./images/Linkedin.png" alt="" class="img" />
+      </a>
+
+      <a
+        class="text"
+        href="https://www.instagram.com/midey937?igsh=OGQ5ZDc2ODk2ZA=="
+      >
+        <img src="./images/Instagram (1).png" alt="" class="img" />
+      </a>
+      <a class="text" href="https://wa.me/09163240645">
+        <img src="./images/whatsapp.webp" alt="" class="img" />
+      </a>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2024 MFD TECH All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
